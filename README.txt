@@ -6,7 +6,8 @@ To Download Racket onto computers for running the files:
 ** CAUTION: Please use Google Chrome to download racket. Other browsers might have some problems downloading it**
   -> After the installer downloads, please click on it to run.
   -> If your windows computer launches a pop-up saying "Windows Protected your PC," don't panic and click on "more info" and click Run anyway. THE RACKET INSTALLER THAT WE DOWNLOAD IS PERFECTLY SAFE TO BE DOWNLOADED AND THE POP-UP FROM WINDOWS IS JUST A PRECAUTION FROM THE COMPUTER.
- -> After that just follow the instructions of the installer.
+  -> After that just follow the instructions of the installer.
+  -> to verify the download, please click on the windows icon and search for DrRacket and see if it pops up and can be run.
 
 To access files and folders necessary for the code starters workshop:
   -> Click on the green button that says code and select download ZIP.
