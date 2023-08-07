@@ -1,0 +1,32 @@
+#lang racket
+(require 2htdp/universe 2htdp/image)
+
+; Constants
+(define WIDTH 300)
+(define HEIGHT 200)
+
+(struct game-state (bird-pos pillar-pos))
+
+(define (update state)
+  (game-state (add1 (game-state-bird-pos state))
+        (sub1 (game-state-pillar-pos state))))
+
+(define (render state)
+  (place-image (circle 10 "solid" "red")
+               150 (game-state-bird-pos state)
+               (draw-pillars state)))
+
+(define (draw-pillars state)
+  (set-pillar state)
+  (place-image/align (rectangle 50 70 "solid" "green") (game-state-pillar-pos state) 0 "left" "top"
+                  (place-image/align (rectangle 50 100 "solid" "blue") (game-state-pillar-pos state) HEIGHT "left" "bottom" (empty-scene WIDTH HEIGHT))))
+
+(define (end? state)
+  (>= (game-state-bird-pos state) (- HEIGHT 10)))
+
+; Main Program
+(define (start-game)
+  (big-bang (game-state 0 WIDTH)
+    [on-tick update]
+    [to-draw render]
+    [stop-when end?]))
