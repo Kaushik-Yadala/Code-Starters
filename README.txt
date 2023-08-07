@@ -4,7 +4,7 @@ To Download Racket onto computers for running the files:
   -> First visit the link: https://download.racket-lang.org/
   -> Click on the blue button that says "racket-8.9-x86_64-win32-cs"
 ** CAUTION: Please use Google Chrome to download racket**
-  -> After the installer download, open it and just follow the instrctions on the installer to download Dr. Racket.
+  -> After the installer downloads, open it and just follow the instrctions on the installer to download Dr. Racket.
 
 To access files and folders necessary for the code starters workshop:
   -> Click on the green button that says code and select download ZIP.
