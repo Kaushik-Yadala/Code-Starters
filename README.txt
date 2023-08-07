@@ -10,6 +10,6 @@ To Download Racket onto computers for running the files:
 
 To access files and folders necessary for the code starters workshop:
   -> Click on the green button that says code and select download ZIP.
-  -> Then extract the folder that says "Code-Starters-main" to access its contents
+  -> Then extract the folder that says "Code-Starters-main" to access its contents (should be located in Code-Starters-main/Code-Starters-main/). 
   -> Then open up the extracted folder and navigate to the folder that says "Code-Starters-Workshops-files" and move this folder to a convinient place (usually the desktop).
   -> Now you can access all the files for the workshop in the "Code-Starters-Workshops-files" folder.
