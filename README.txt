@@ -5,7 +5,7 @@ To Download Racket onto computers for running the files:
   -> Click on the blue button that says "racket-8.9-x86_64-win32-cs"
 ** CAUTION: Please use Google Chrome to download racket. Other browsers might have some problems downloading it**
   -> After the installer downloads, please click on it to run.
-  -> If your windows computer launches a pop-up saying "Windows Protected your PC," don't panic and click on "more info" and click Run anyway. THE RACKET INSTALLER THAT WE DOWNLOAD IS PERFECTLY SAFE TO BE DOWNLOADED AND THE POP-UP FROM WINDOWS IS JUST A PRECAUTION FROM THE COMPUTER.
+  -> If your windows computer launches a pop-up saying "Windows Protected your PC," don't panic and click on "more info" and click Run anyway. THE RACKET INSTALLER THAT WE DOWNLOAD IS PERFECTLY SAFE TO AND THE POP-UP FROM WINDOWS IS JUST A PRECAUTION FROM THE COMPUTER.
   -> After that just follow the instructions of the installer.
   -> to verify the download, please click on the windows icon and search for DrRacket and see if it pops up and can be run.
 
